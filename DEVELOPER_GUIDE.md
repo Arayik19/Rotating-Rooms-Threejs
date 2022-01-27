@@ -1,0 +1,1 @@
+## To Start the project type npm run dev
