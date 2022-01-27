@@ -1,5 +1,4 @@
 import * as THREE from 'three';
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 
 class RotatingRooms {
   scene;
@@ -14,7 +13,6 @@ class RotatingRooms {
     this.createHexaShapedRoom();
     this.renderer.render(this.scene, this.camera);
     this.addRotationFunctionality();
-    OrbitControls
   }
 
   initEnviroment() {
